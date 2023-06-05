@@ -1,0 +1,33 @@
+  <!-- Booking -->
+  <div class="w3-light-grey w3-padding-large w3-padding-16 w3-margin-top" id="booking">
+    <h3 class="w3-center">Book a Flight</h3>
+    <hr>
+   
+      
+<!-- php work-->
+     
+    <form action="submit-form.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="from">From:</label>
+		<input type="text" id="from" name="from" required><br><br>
+		
+		<label for="to">To:</label>
+		<input type="text" id="to" name="to" required><br><br>
+		
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date" required><br><br>
+		
+		<label for="class">Class:</label>
+		<select id="class" name="class">
+			<option value="economy">Economy</option>
+			<option value="business">Business</option>
+			<option value="first">First</option>
+		</select><br><br>
+		
+		<input type="submit" value="Submit">
+	</form><br>
